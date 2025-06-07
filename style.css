@@ -1,0 +1,117 @@
+/* ====== GLOBAL BODY ====== */
+body { 
+  font-family: 'Segoe UI', 'Helvetica Neue', sans-serif;
+  background: linear-gradient(to bottom right, #ffe6f0, #e6f7ff);
+  color: #333;
+  margin: 0;
+  padding: 2rem;
+}
+
+/* ====== FORM CONTAINER ====== */
+.form-container {
+  max-width: 720px;
+  margin: auto;
+  background-color: #ffffffcc;
+  padding: 2rem;
+  border-radius: 20px;
+  box-shadow: 0 8px 24px rgba(255, 182, 193, 0.5);
+  backdrop-filter: blur(5px);
+}
+
+/* ====== HEADING ====== */
+h1 {
+  text-align: center;
+  color: #ff69b4;
+  font-weight: bold;
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+/* ====== LABEL ====== */
+label {
+  display: block;
+  margin-top: 1rem;
+  font-weight: 600;
+  color: #555;
+}
+
+/* ====== INPUT, TEXTAREA, SELECT ====== */
+input, textarea, select {
+  width: 100%;
+  padding: 0.6rem 0.8rem;
+  margin-top: 0.3rem;
+  background-color: #fff0f5;
+  color: #444;
+  border: 1px solid #ffb6c1;
+  border-radius: 10px;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+}
+
+input:focus, textarea:focus, select:focus {
+  outline: none;
+  border-color: #ff69b4;
+  box-shadow: 0 0 5px #ff69b4aa;
+  background-color: #fffaff;
+}
+
+/* ====== INPUT NUMBER KHUSUS ====== */
+input[type="number"] {
+  /* Warna dan padding tetap mengacu pada global input */
+}
+
+/* ====== <p> KETERANGAN TINGGI & BERAT ====== */
+.keterangan-tinggi,
+.keterangan-berat {
+  margin-top: 0.3rem;
+  font-size: 0.9rem;
+  font-style: italic;
+  color: #777;
+}
+
+/* ====== RADIO GROUP (Status) ====== */
+.radio-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 0.5rem;
+  align-items: center;
+}
+
+.radio-group label {
+  background-color: #fff0f5;
+  padding: 0.5rem 1rem;
+  border: 1px solid #ffb6c1;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-size: 0.95rem;
+}
+
+.radio-group label:hover {
+  background-color: #ffe6f0;
+  border-color: #ff69b4;
+}
+
+/* Styling input radio agar tidak tampil menonjol */
+.radio-group input[type="radio"] {
+  margin-right: 0.4rem;
+}
+
+/* Paragraf tambahan dalam radio group */
+.radio-group p {
+  flex-basis: 100%;
+  margin-top: 0.5rem;
+  font-style: italic;
+  font-size: 0.9rem;
+  color: #666;
+}
+
+/* ====== PREVIEW GAMBAR ====== */
+img.preview {
+  margin-top: 1rem;
+  width: 120px;
+  border-radius: 12px;
+  border: 2px solid #ffb6c1;
+  box-shadow: 0 0 10px rgba(255, 105, 180, 0.3);
+}

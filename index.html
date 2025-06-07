@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Application My Self</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="form-container">
+    <h1>Application</h1>
+    <form id="datingForm">
+      <label>Nama Lengkap:</label>
+      <input type="text" id="nama" />
+
+      <label>Usia:</label>
+      <input type="number" id="usia" />
+
+      <label>Gender:</label>
+      <input type="text" id="gender" />
+
+      <label>Tinggi (cm):</label>
+      <input type="number" id="tinggi" />
+      <p>Aku lupa tinggi badan aku sendiri tapi pas check segitu, mau ngecek gapunya alatnya</p>
+
+      <label>Berat (kg):</label>
+      <input type="number" id="berat" />
+      <p>Terakhir sekisaran segitu deh, nggak ada timbangan berat badang wkwk</p>
+
+      <label>Suku Sunda:</label>
+      <input type="text" id="suku" />
+
+      <label>Stack / Bahasa Pemrograman Favorit:</label>
+      <input type="text" id="stack" />
+
+      <label>Zodiak:</label>
+      <input type="text" id="zodiak" />
+
+      <label>Status:</label>
+      <div class="radio-group">
+        <label><input type="radio" name="status" value="Sekolah" /> Sekolah</label>
+        <label><input type="radio" name="status" value="Kuliah" /> Kuliah</label>
+        <label><input type="radio" name="status" value="Kerja" /> Kerja</label>
+        <label><input type="radio" name="status" value="Ngoding terus" /> Ngoding terus</label>
+        <p>sebenrnya aku sambil Kerja lebih kearah Freelance sih sama penggarun dikitlah wkwk, tapi aku pernah kerja dibidang F&B posisi Crew Outlet selama 4 bulan </p>
+      </div>
+
+      <label>Top 5 Lagu saat ngoding:</label>
+      <textarea id="lagu" rows="3"></textarea>
+
+      <label>5 Fakta Acak tentang Kamu:</label>
+      <textarea id="fakta" rows="3"></textarea>
+
+      <label>Gimana kalau aku kasih kamu nickname lucu?</label>
+      <div class="radio-group">
+        <label><input type="radio" name="nickname" value="YES" /> YES</label>
+        <label><input type="radio" name="nickname" value="NO" /> NO</label>
+      </div>
+
+      <label>Kamu peduli sama style kamu?</label>
+      <div class="radio-group">
+        <label><input type="radio" name="style" value="YES" /> YES</label>
+        <label><input type="radio" name="style" value="NO" /> NO</label>
+      </div>
+
+      <label>Apakah kamu keberatan kalau aku clingy?</label>
+      <div class="radio-group">
+        <label><input type="radio" name="clingy" value="YES" /> YES</label>
+        <label><input type="radio" name="clingy" value="NO" /> NO</label>
+      </div>
+
+      <label>Instagram:</label>
+      <input type="text" id="instagram" />
+
+      <label>Facebook:</label>
+      <input type="text" id="facebook" />
+
+      <label>GitHub:</label>
+      <input type="text" id="github" />
+
+      <label>LinkedIn:</label>
+      <input type="text" id="linkedin" />
+
+      <label>WhatsApp:</label>
+      <input type="text" id="wa" />
+
+      <label>Foto (Jarang difoto)</label>
+      <img id="preview" class="preview" src="img/foto.jpg" alt="Foto Kamu">
+
+    </form>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
